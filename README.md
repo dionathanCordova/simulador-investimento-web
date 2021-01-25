@@ -69,7 +69,7 @@ The following tools were used in this project:
 
 ## :white_check_mark: Requerimentos ##
 
-Antes de começar :checkered_flag:, você precisa do [Git](https://git-scm.com), docker - [Docker](https://www.docker.com/) e [Node](https://nodejs.org/en/) instalados.
+Antes de começar :checkered_flag:, você precisa do [Git](https://git-scm.com), [Docker](https://www.docker.com/) e [Node](https://nodejs.org/en/) instalados.
 
 ## :checkered_flag: Starting ##
 

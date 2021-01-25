@@ -74,19 +74,47 @@ Antes de começar :checkered_flag:, você precisa do [Git](https://git-scm.com),
 ## :checkered_flag: Starting ##
 
 ```bash
-# Clone this project
+# Clone estes projetos
+$ git clone https://github.com/dionathanCordova/simulador-investimento-server
+
+# Acesse
+$ cd simulador-investimento-server
+
+# Instale as dependências
+$ yarn
+
+# Rode o seguinte comando no terminal para criar um container do DB postgres
+$ docker run --name postgres_container -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+
+# Execute o comando docker ps no terminal e confira se existe um container chamado postgres_container rodando
+$ docker ps
+
+# Acesse o db através de qualquer SGBD com as seguintes credenciais: usuario = postgres, password = docker, porta = 5432
+# Crie um novo schemma chamado "testeqi"
+
+# PS: Note que para ajudar o .env já está com todas as credenciais de conexão, não sendo o ideal em um ambiente de produção, mas neste caso resolvi deixar tudo ali disponível já que a configuração do typeorm vai buscar as credenciais de acesso neste arquivo.
+
+# No terminal rode o seguinte comando que se encarregará de criar as tabelas no DB
+$ yarn typeorm migration:run
+
+# Execute o projeto
+$ yarn dev:server 
+
+# Se no console aparecer a mensagem "Server started at port: 3333", tudo está rodando sem problema, e o servidor já estará funcionando perfeitamente.
+
+# Clone o projeto web
 $ git clone https://github.com/dionathanCordova/simulador-investimento-web
 
 # Access
 $ cd simulador-investimento-web
 
-# Install dependencies
+# Instale as dependências
 $ yarn
 
 # Run the project
 $ yarn start
 
-# The server will initialize in the <http://localhost:3000>
+# O projeto irá ser iniciado na url <http://localhost:3000>
 ```
 
 ## :memo: Referências ##

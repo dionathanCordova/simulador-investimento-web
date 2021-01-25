@@ -64,20 +64,17 @@ const Home = () => {
       });
 
       if(simulacao.status === 200) {
-         const simulacao = await api.get(`simulacao/find/${user.id}`);
+         setCountSimulacoes(simulacao.data.user.qtd_simulacoes);
+         UpdateUser(simulacao.data.user);
 
-         if(simulacao.status === 200) {
-            setCountSimulacoes(simulacao.data.lenght);
-
-            swal({
-               title: "Investidor!",
-               text: "Simulação de investimento armazenada com sucesso!",
-               icon: "success",
-            });
-         }
+         swal({
+            title: "Investidor!",
+            text: "Simulação de investimento armazenada com sucesso!",
+            icon: "success",
+         });
       }
 
-   }, [valorInvestimentoInicial, valorMensal, mesesInvestimento, valorInvestido, valorFinalBrutoCDB, taxaCDBDI, taxaDI, valorFinalPoupanca, taxaPoupanca, taxaSelic, user])
+   }, [valorInvestimentoInicial, valorMensal, mesesInvestimento, valorInvestido, valorFinalBrutoCDB, taxaCDBDI, taxaDI, valorFinalPoupanca, taxaPoupanca, taxaSelic, user, countSimulacoes])
 
    const handleGoToPage = useCallback((page) => {
       history.push(page);

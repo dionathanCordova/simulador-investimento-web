@@ -52,23 +52,24 @@ Projeto web de um simulador de investimento comparando a taxa de rendimento de u
 
 :heavy_check_mark: Planejamento - Busca por referências, no que diz sobre calculo e taxas de investimentos de CDB e poupança.
 
-:heavy_check_mark: Elaboração - Optei por manter o projeto em duas(2) partes, onde a primeira se trata do backend da aplicação usando Node, typescript e Postgre para armazenar os dados.
+:heavy_check_mark: Elaboração - Optei por manter o projeto em dois(2) repositórios, onde o primeiro se trata do backend da aplicação usando Node, typescript e Postgre para armazenar os dados.
+E o segundo se trata do front-end, usando reactJs e typescript.
 
-:heavy_check_mark: Execução - A aplicação foi feita em uma espécia de land page, contendo quase tudo na pagina inicial, só foi separada em uma outra página a parte onde o usuário informa os dados pessoas ( nome, telefone e email );
+:heavy_check_mark: Execução - A aplicação foi feita em uma espécia de land page, contendo quase tudo na pagina inicial, só foi separada em uma outra página a parte onde o usuário informa os dados pessoas ( nome, telefone e email ).
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
 - [Node.js](https://nodejs.org/en/)
 - [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Docker](https://www.docker.com/)
+- [Typeorm](https://typeorm.io/#/)
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requerimentos ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Antes de começar :checkered_flag:, você precisa do [Git](https://git-scm.com), docker - [Docker](https://www.docker.com/) e [Node](https://nodejs.org/en/) instalados.
 
 ## :checkered_flag: Starting ##
 

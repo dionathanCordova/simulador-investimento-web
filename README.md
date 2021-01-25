@@ -36,7 +36,7 @@
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
   <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requeriments</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
   <a href="#memo-license">License</a> &#xa0; | &#xa0;
   <a href="https://github.com/dionathanCordova" target="_blank">Author</a>
@@ -67,7 +67,7 @@ The following tools were used in this project:
 - [Docker](https://www.docker.com/)
 - [Typeorm](https://typeorm.io/#/)
 
-## :white_check_mark: Requerimentos ##
+## :white_check_mark: Requeriments ##
 
 Antes de começar :checkered_flag:, você precisa do [Git](https://git-scm.com), [Docker](https://www.docker.com/) e [Node](https://nodejs.org/en/) instalados.
 
@@ -86,13 +86,17 @@ $ yarn
 # Rode o seguinte comando no terminal para criar um container do DB postgres
 $ docker run --name postgres_container -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 
-# Execute o comando docker ps no terminal e confira se existe um container chamado postgres_container rodando
+# Execute o comando docker ps no terminal e confira se existe um container 
+# chamado postgres_container rodando
 $ docker ps
 
-# Acesse o db através de qualquer SGBD com as seguintes credenciais: usuario = postgres, password = docker, porta = 5432
+# Acesse o db através de qualquer SGBD com as seguintes credenciais: 
+# usuario = postgres, password = docker, porta = 5432
 # Crie um novo schemma chamado "testeqi"
 
-# PS: Note que para ajudar o .env já está com todas as credenciais de conexão, não sendo o ideal em um ambiente de produção, mas neste caso resolvi deixar tudo ali disponível já que a configuração do typeorm vai buscar as credenciais de acesso neste arquivo.
+# PS: Note que para ajudar o .env já está com todas as credenciais de conexão, 
+# não sendo o ideal em um ambiente de produção, mas neste caso resolvi deixar 
+# tudo ali disponível já que a configuração do typeorm vai buscar as credenciais de acesso neste arquivo.
 
 # No terminal rode o seguinte comando que se encarregará de criar as tabelas no DB
 $ yarn typeorm migration:run
@@ -100,7 +104,8 @@ $ yarn typeorm migration:run
 # Execute o projeto
 $ yarn dev:server 
 
-# Se no console aparecer a mensagem "Server started at port: 3333", tudo está rodando sem problema, e o servidor já estará funcionando perfeitamente.
+# Se no console aparecer a mensagem "Server started at port: 3333",
+# tudo está rodando sem problema, e o servidor já estará funcionando perfeitamente.
 
 # Clone o projeto web
 $ git clone https://github.com/dionathanCordova/simulador-investimento-web
@@ -132,7 +137,7 @@ $ yarn start
 This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/dionathanCordova" target="_blank">{{YOUR_NAME}}</a>
+Made by <a href="https://github.com/dionathanCordova" target="_blank">Dionathan de Córdova</a>
 
 &#xa0;
 

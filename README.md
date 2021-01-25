@@ -46,11 +46,11 @@
 
 ## :dart: About ##
 
-Describe your project
+Projeto web de um simulador de investimento comparando a taxa de rendimento de um CDB com a poupança
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
+:heavy_check_mark: Planejamento;\ - Busca por referências, no que diz sobre calculo e taxas de investimentos de CDB e poupança
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
 

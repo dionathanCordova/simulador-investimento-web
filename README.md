@@ -50,7 +50,8 @@ Projeto web de um simulador de investimento comparando a taxa de rendimento de u
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Planejamento;\ - Busca por referências, no que diz sobre calculo e taxas de investimentos de CDB e poupança
+:heavy_check_mark: Planejamento - Busca por referências, no que diz sobre calculo e taxas de investimentos de CDB e poupança \
+
 :heavy_check_mark: Feature 2;\
 :heavy_check_mark: Feature 3;
 

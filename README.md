@@ -50,10 +50,11 @@ Projeto web de um simulador de investimento comparando a taxa de rendimento de u
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Planejamento - Busca por referências, no que diz sobre calculo e taxas de investimentos de CDB e poupança \
+:heavy_check_mark: Planejamento - Busca por referências, no que diz sobre calculo e taxas de investimentos de CDB e poupança.
 
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Elaboração - Optei por manter o projeto em duas(2) partes, onde a primeira se trata do backend da aplicação usando Node, typescript e Postgre para armazenar os dados.
+
+:heavy_check_mark: Execução - A aplicação foi feita em uma espécia de land page, contendo quase tudo na pagina inicial, só foi separada em uma outra página a parte onde o usuário informa os dados pessoas ( nome, telefone e email );
 
 ## :rocket: Technologies ##
 
